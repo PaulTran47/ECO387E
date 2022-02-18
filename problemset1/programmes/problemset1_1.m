@@ -148,7 +148,7 @@ close(gcf);
 % of zero will result in the employed person to prefer receiving
 % unemployment benefits b as a minimum. This is because with the small
 % chance of their job being destroyed, they would just settle on setting
-% their reservation wage to be $b$ (as an unemployed person would do in the
+% their reservation wage to be b (as an unemployed person would do in the
 % model).
 
 % However, as the job arrival rate for employed people being to increase,
@@ -158,9 +158,9 @@ close(gcf);
 % Therefore, they raise their minimum threshold/standard for accepting a
 % job offer.
 
-% The reservation wage will reach a maximum as $\lambda_{e}$ continues to
+% The reservation wage will reach a maximum as \lambda_{e} continues to
 % increase, however. Once so, the reservation wage begins to decrease back
-% to the value of b at $\lambda_{e} = 0.4$. Note that this decrease will
+% to the value of b at \lambda_{e} = 0.4. Note that this decrease will
 % continue as the job arrival rate for employed people increase.
 % Intuitively, this trend is because NEED TO FIGURE OUT WHY.
 %===========
@@ -225,7 +225,7 @@ close(gcf);
 % ANSWER
 %=======
 % When comparing the two density functions together, we initially see that
-% the curve/shape of both distributions differ greatly. For $f(w(p))$ in
+% the curve/shape of both distributions differ greatly. For f(w(p)) in
 % the model with heterogeneous firms, the density function is slightly
 % convex upward, whilst the function is also slightly decreasing. For f(w)
 % in the model with homogeneous firms, the density function takes the shape
@@ -233,8 +233,8 @@ close(gcf);
 % exponential shape.
 
 % Furthermore, the range of densities that each function can take differ as
-% well. $f(w(p))$ for the given calibration is in the single digits, whilst
-% $f(w)$ exponentially grows towards infinity as wage increases.
+% well. f(w(p)) for the given calibration is in the single digits, whilst
+% f(w) exponentially grows towards infinity as wage increases.
 %===========
 % END ANSWER
 %===========
@@ -292,13 +292,13 @@ close(gcf);
 %=======
 % ANSWER
 %=======
-% When comparing densities $f(w(p))$ from the model with heterogeneous
-% firms but with $J(p)$ following a uniform and truncated normal
+% When comparing densities f(w(p)) from the model with heterogeneous
+% firms but with J(p) following a uniform and truncated normal
 % distributions (both having the same calibration), we see immediately that
 % the density using the truncated normal distribution is much more convex.
 % We also see that as productivity approaches values close to
-% $\overline{p} = 1$, the two density functions converge together. However,
-% productivity values close to $b = 0.7$ see the density using the
+% \overline{p} = 1, the two density functions converge together. However,
+% productivity values close to b = 0.7 see the density using the
 % truncated normal distribution to be much greater than that using the
 % uniform distribution.
 %===========
