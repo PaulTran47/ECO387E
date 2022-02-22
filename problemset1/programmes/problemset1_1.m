@@ -100,6 +100,10 @@ grid on
 xlabel('Wage w');
 ylabel('Density');
 hold on
+
+% Creating legend
+legend('p = 1 (Blue)', 'p = 1.1 (Red)', 'Location', 'Northwest');
+
 title({'Density function f(w),', 'w \in [0.8919, 0.9942] for 1e (not shown)', 'w \in [0.9559, 1.0923] for 1f'});
 
 saveas(gcf, 'path\to\graphics\1f_plot.png');
@@ -144,7 +148,7 @@ close(gcf);
 %=======
 % ANSWER
 %=======
-% From our plot, we see that a employed-person job offer arrival rate
+% From our plot, we see that an employed-person job offer arrival rate
 % of zero will result in the employed person to prefer receiving
 % unemployment benefits b as a minimum. This is because with the small
 % chance of their job being destroyed, they would just settle on setting
