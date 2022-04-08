@@ -9,6 +9,7 @@
       <a href="#overview">Overview</a>
       <ol>
         <li><a href="#problem-set-1">Problem set 1</a></li>
+        <li><a href="#problem-set-2">Problem set 2</a></li>
       </ol>
     </li>
     <li><a href="#prerequisites">Prerequisites</a></li>
@@ -27,7 +28,16 @@ This repository houses all problem sets and associated solutions for ECO385K: Ad
 ---
 
 ### [Problem set 1](https://github.com/PaulTran47/ECO387E/tree/main/problemset1)
-Equilibrium steady-state wage distributions in the Burdett-Mortensen model, steady-state elasticites with respect to aggregate labour productivity, DMP model with aggregate productivity shocks.
+Equilibrium steady-state wage distributions in the Burdett-Mortensen model, steady-state elasticites with respect to aggregate labour productivity, Diamond-Mortensen-Pissarides (DMP) model with aggregate productivity shocks.
+
+<p align="right">
+  (<a href="#ut-austin-advanced-macro-labour-ii">back to top.</a>)
+</p>
+
+---
+
+### [Problem set 2](https://github.com/PaulTran47/ECO387E/tree/main/problemset2)
+Diamond-Mortensen-Pissarides model with aggregate productivity shocks.
 
 <p align="right">
   (<a href="#ut-austin-advanced-macro-labour-ii">back to top.</a>)
