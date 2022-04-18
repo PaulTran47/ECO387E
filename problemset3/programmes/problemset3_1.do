@@ -156,7 +156,7 @@ gen ln_wages = log(wages)
 /* Creating experience squared variable */
 gen potexpsq = potexp^2
 
-/* Performing WLS (Recall constant = 0 for all relevant dummy variables */
+/* Performing WLS */
 regress ln_wage schoolyrs potexp potexpsq black hispanic white ///
   i.female##i.married childpresence state* ///
   [pweight = earnwt]
@@ -183,7 +183,7 @@ regress ln_wage schoolyrs potexp potexpsq black hispanic white ///
 /** for each occupation. How does the R2 change relative to part 1b? How **/
 /** does the coefficient on years of schooling change relative to part 1b? **/
 /** Do you have an explanation for the latter? **/
-/* Performing WLS (Recall constant = 0 for all relevant dummy variables */
+/* Performing WLS */
 regress ln_wage schoolyrs potexp potexpsq black hispanic white ///
   i.female##i.married childpresence state* occupation* ///
   [pweight = earnwt]
@@ -194,9 +194,13 @@ regress ln_wage schoolyrs potexp potexpsq black hispanic white ///
 /* The R^{2} of the regression increases to 0.2499 when compared to that of */
 /* part 1b. Furthermore, we see that the coefficient on years of schooling */
 /* increases from -0.1457 to -0.1417. It should be mentioned that this change */
-/* isn't much at all in terms of magnitude. */
-
-/* NEED TO FIGURE OUT WHY THIS OCCURS INTUITIVELY. */
+/* isn't much at all in terms of magnitude. It’s possible this (albeit small) */
+/* increase is due to how when accounting for both experience and occupation, */
+/* the effect of schooling on one’s wage is more “powerful”. However, it’s */
+/* also entirely possible that the observed change is small to begin with */
+/* because omitted variables is still explaining much of the variation that */
+/* the regression can’t account for, and therefore weakens any possible */
+/* effect education has on one’s wages. */
 /**************/
 /* END ANSWER */
 /**************/
@@ -351,7 +355,7 @@ gen ln_wages = log(wages)
 drop potexpsq
 gen potexpsq = potexp^2
 
-/* Performing WLS (Recall constant = 0 for all relevant dummy variables */
+/* Performing WLS */
 regress ln_wage schoolyrs potexp potexpsq black hispanic white ///
   i.female##i.married childpresence state* ///
   [pweight = earnwt]

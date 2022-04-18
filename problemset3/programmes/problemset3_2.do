@@ -151,7 +151,7 @@ gen ln_wages = log(wages)
 /* Creating experience squared variable */
 gen potexpsq = potexp^2
 
-/* Performing WLS (Recall constant = 0 for all relevant dummy variables */
+/* Performing WLS */
 regress ln_wage schoolyrs potexp potexpsq black hispanic white ///
   i.female##i.married childpresence state* ///
   [pweight = earnwt]
