@@ -20,7 +20,7 @@
 ---
 
 ## Overview
-This repository houses all problem sets and associated solutions for ECO385K: Advanced Macro Labour I at UT Austin, in fall 2021. The solutions are written in Matlab by Paul Le Tran.
+This repository houses all problem sets and associated solutions for ECO387K: Advanced Macro Labour II at UT Austin, in spring 2022. The solutions are written in Matlab by Paul Le Tran.
 
 <p align="right">
   (<a href="#ut-austin-advanced-macro-labour-ii">back to top.</a>)
@@ -29,7 +29,7 @@ This repository houses all problem sets and associated solutions for ECO385K: Ad
 ---
 
 ### [Problem set 1](https://github.com/PaulTran47/ECO387E/tree/main/problemset1)
-Equilibrium steady-state wage distributions in the Burdett-Mortensen model, steady-state elasticites with respect to aggregate labour productivity, Diamond-Mortensen-Pissarides (DMP) model with aggregate productivity shocks.
+Equilibrium steady-state wage distributions in the Burdett-Mortensen model, steady-state elasticities with respect to aggregate labour productivity, Diamond-Mortensen-Pissarides (DMP) model with aggregate productivity shocks.
 
 <p align="right">
   (<a href="#ut-austin-advanced-macro-labour-ii">back to top.</a>)
